@@ -13,6 +13,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 into a tidy version of the dataset which contains the subject
 number, the activity, and the average of all the other features.
 
+Requirements (aside from R):
+============================================
+
+- reshape package
+- the unzipped dataset on the same folder as the script
+
 The repository includes the following files:
 ============================================
 
@@ -36,3 +42,9 @@ The run_analysis.R
 7. Merge all columns
 8. Melt-Cast all variables except subjectNo and activity by their mean
 9. Append "_average" to all the column names except the first two
+
+How to use the script
+============================================
+
+1. source("run_analysis.R")
+2. data = tidy_data()
