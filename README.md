@@ -1,5 +1,4 @@
-Coursera - Getting and Cleaning Data Course Project
-by Reinald Kim T. Amplayo
+Coursera - Getting and Cleaning Data Course Project by Reinald Kim T. Amplayo
 ==================================================================
 
 The main task of this course project is to transform the UCI HAR
