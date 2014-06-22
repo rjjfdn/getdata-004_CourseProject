@@ -23,3 +23,16 @@ The repository includes the following files:
 - "run_analysis.R": R script which contains the functions to
 		be used to do the task
 - "data.txt": The comma-separated output of the R script
+
+The run_analysis.R
+============================================
+
+1. Read all necessary files
+2. Get only feature names that contains "mean()" or "std()"
+3. Convert the "activity number" into the "activity name"
+4. Include only columns with feature names containing "mean()" or "std()"
+5. Change the column names to ensure that the train and test files have the same column names
+6. Merge the train and test datasets
+7. Merge all columns
+8. Melt-Cast all variables except subjectNo and activity by their mean
+9. Append "_average" to all the column names except the first two
